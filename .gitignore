@@ -1,0 +1,23 @@
+# Игнорировать папки с данными (датасетами)
+#tests/
+#data/
+#icons/
+#smalltest/
+#generated/
+#debug/
+#cropped-train/
+#background_images/
+*.jpg
+*.png
+*.npz
+
+# Игнорировать папки с логами и модельками
+**/lightning_logs/
+**/checkpoints/
+*.pt
+*.pth
+
+
+# Игнорировать кэшированные файлы
+__pycache__/
+.pytest_cache/
