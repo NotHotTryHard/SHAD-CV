@@ -7,9 +7,20 @@
 #debug/
 #cropped-train/
 #background_images/
+mnist/
 *.jpg
 *.png
 *.npz
+*.npy
+*.pickle
+
+# Не хочу игнорировать некоторые из результатов 
+!2. Prokudin-Gorskiy/
+!2. Prokudin-Gorskiy/**/*.png
+!3. Image compression/
+!3. Image compression/**/*.png
+!4. Inverse convolution/
+!4. Inverse convolution/**/*.png
 
 # Игнорировать папки с логами и модельками
 **/lightning_logs/
