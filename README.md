@@ -1,4 +1,4 @@
-# SHAD_CV
+# SHAD-CV
 
 _Репозиторий домашних работ по курсу Computer Vision_
 
